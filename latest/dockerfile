@@ -1,0 +1,6 @@
+FROM amazoncorretto:21
+WORKDIR /app
+ADD https://github.com/Anuken/Mindustry/releases/latest/download/server-release.jar /app/server.jar
+
+CMD cd /app
+ENTRYPOINT java -jar server.jar

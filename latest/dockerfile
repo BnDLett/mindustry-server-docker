@@ -1,4 +1,4 @@
-FROM amazoncorretto:21
+FROM amazoncorretto:25
 WORKDIR /app
 ADD https://github.com/Anuken/Mindustry/releases/latest/download/server-release.jar /app/server.jar
 
